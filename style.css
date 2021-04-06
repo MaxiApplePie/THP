@@ -1,0 +1,226 @@
+body {
+    border: 0px;
+    padding: 0px;
+    margin: 0px;
+}
+
+#container {
+    display: flex;
+    flex-direction: column;
+}
+
+
+/* ---------- HEADER -----------------------------------------------------------------------------*/
+
+#header {
+    height: 60px;
+    width: 100%;
+    /*  background-color: cyan;  */
+    color: black;
+}
+
+.nav {
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 13px;
+}
+
+#header a {
+    text-decoration: none;
+    ;
+}
+
+#header a:hover {
+    text-decoration: underline;
+}
+
+#header a:visited {
+    text-decoration: none;
+}
+
+#left,
+#middle,
+#right {
+    min-height: 20px;
+    min-width: 20px;
+}
+
+#left {
+    background: #ffcdd2;
+    padding: 15px 5px 5px 5px;
+}
+
+#middle {
+    background: #bbdefb;
+    padding: 15px 5px 5px 5px;
+}
+
+#right {
+    background: #fff9c4;
+}
+
+#myFace {
+    background: #9e9c88;
+    padding: 5px;
+}
+
+.item {
+    font-size: 20px;
+    padding: 16px 10px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 13px;
+}
+
+.arrondi {
+    border-radius: 30px;
+}
+
+
+/* Body --------------------------------------------------------------------------------------- */
+
+#googleTop {
+    height: 200px;
+    width: 100%;
+    /* background-color: darkgrey;  */
+    vertical-align: bottom;
+    text-align: center;
+}
+
+#googleSearch {
+    height: 160px;
+    width: 100%;
+    /*   background-color: darksalmon;   */
+    padding: 20px 0px;
+}
+
+#button_div {
+    padding: 0px 15px;
+    margin: auto;
+    padding-top: 20px;
+    text-align: center;
+}
+
+#search {
+    border-radius: 50px;
+    border: 1px solid #ddd;
+    height: 50px;
+    background-repeat: no-repeat;
+    background-size: 14px;
+    padding-left: 50px;
+    min-width: 340px;
+    width: 80%;
+}
+
+#search_div {
+    width: 100%;
+    margin: auto;
+    padding-top: 40px;
+    text-align: center;
+}
+
+#googleUnder {
+    height: 224px;
+    width: 100%;
+    vertical-align: top;
+    text-align: center;
+    padding-top: 15px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 14px;
+}
+
+#jsController {
+    max-width: 584px;
+    margin: auto;
+}
+
+.input2 {
+    padding: 10px 10px;
+    margin: 10px 4px;
+    width: 160px;
+    cursor: pointer;
+    text-align: center;
+    position: relative;
+    border: 1px solid white;
+    border-radius: 8px;
+    background-color: #f8f9fa;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 14px;
+}
+
+.input2:hover {
+    border: solid 1px lightgrey;
+}
+
+
+/* baas de page ------------- Footer --------------------------------------------------------- */
+
+#googleFooter {
+    min-height: 100px;
+    width: 100%;
+    background-color: #F2F2F2;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 14px;
+    padding: 0px, 20px;
+    color: cornflowerblue;
+}
+
+#options {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+#France {
+    min-width: 50px;
+    padding-top: 15px;
+    padding-left: 25px;
+    padding-bottom: 10px;
+    color: grey;
+}
+
+#opt_gauche,
+#opt_milieu,
+#opt_droite {
+    min-width: 50px;
+    padding: 15px;
+}
+
+#googleFooter a {
+    text-decoration: none grey;
+}
+
+#googleFooter a:hover {
+    text-decoration: grey underline;
+}
+
+#googleFooter a:visited {
+    color: grey;
+    text-decoration: none;
+}
+
+.item2 {
+    padding: 0px 15px;
+}
+
+.Pb9hCb {
+    height: 14px;
+    margin-right: 6px;
+}
+
+
+/*
+#opt_gauche {
+    background: #ffcdd2;
+}
+
+#opt_milieu {
+    background: #bbdefb;
+}
+
+#opt_droite {
+    background: #fff9c4;
+}
+*/
